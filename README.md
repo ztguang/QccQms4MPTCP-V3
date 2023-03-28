@@ -10,21 +10,21 @@ All experiments are performed between OnePlus 8T with Android 13 and the aliyun 
 
 We do the following four rounds of experiments when QoE is equal to 1, 2, 3, 7 and 11 respectively. 
 
-(1) using iperf3 to send 160 MB of data to the aliyun server; 
+(1) using scp to send 160 MB of data (4749 files) to the aliyun server; 
 
-(2) using scp to send 160 MB of data (folder drivers) to the aliyun server; 
+(2) using iperf3 to send 160 MB of data (1 file) to the server; 
 
-(3) using iperf3 to send 160 MB of data to the aliyun server at different packet loss rates;
+(3) using scp to send 160 MB of data (4749 files) to the server at different packet loss rates;
 
-(4) using scp to send 160 MB of data (folder drivers) to the aliyun server at different packet loss rates.
+(4) using iperf3 to send 160 MB of data (1 file) to the server at different packet loss rates.
 
 Because the files captured by tcpdump are relatively large and cannot be uploaded to GitHub, the download link is given.
 
 # Download
 
-link: 
+link: https://pan.baidu.com/s/1DY_c_UtTUfH2Q4I70r55zQ?pwd=pv2v 
 
-Extraction code: 
+Extraction code: pv2v 
 
 ## data
     All raw data files of test are listed in 'resultspaper2---original--test--data---202302---OK'
